@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/confignetwork"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppOder"
+        tools:targetApi="31">
+        <activity
+            android:name=".HighSalaryEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminQuanLyNhanVien"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietVoucher"
+            android:exported="false" />
+        <activity
+            android:name=".AddVoucher"
+            android:exported="false" />
+        <activity
+            android:name=".chiTietHdAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietHD"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGioHang"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietCH"
+            android:exported="false" />
+        <activity
+            android:name=".SanPhamTrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietSP"
+            android:exported="false" />
+        <activity
+            android:name=".TimKiem"
+            android:exported="false" />
+        <activity
+            android:name=".HoSo"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhap"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyChRUvnF5tnIYmHmUnF7pGS1bBTlStfAv4" />
+    </application>
+
+</manifest>

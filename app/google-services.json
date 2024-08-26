@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1072433013226",
+    "project_id": "myfirstapp-c0bc1",
+    "storage_bucket": "myfirstapp-c0bc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072433013226:android:9d6091ee48e21c9b0d9293",
+        "android_client_info": {
+          "package_name": "com.example.AppOder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdvEoQj42MFB-IkODq_7QC-u9m4sWKiiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

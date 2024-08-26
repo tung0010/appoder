@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_cuahang"></ImageView>
+
+    <EditText
+        android:backgroundTint="#D4C5C5"
+        android:id="@+id/ed_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/vien"
+        android:hint="Họ và tên"
+        android:inputType="text"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:backgroundTint="#D4C5C5"
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/vien"
+        android:hint="Email"
+        android:inputType="text"
+        android:textSize="20dp"></EditText>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:backgroundTint="#D4C5C5"
+            android:id="@+id/ed_MK"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vien"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:textSize="20dp"></EditText>
+
+        <ImageView
+            android:id="@+id/icon_pass"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:src="@drawable/show_pass_foreground"></ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <EditText
+            android:backgroundTint="#D4C5C5"
+            android:id="@+id/ed_MKNL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vien"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:textSize="20dp"></EditText>
+
+        <ImageView
+            android:id="@+id/icon_conpass"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:src="@drawable/show_pass_foreground"></ImageView>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnDK"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#CD4949"
+        android:text="ĐĂNG KÝ"
+        android:textSize="20dp"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="gone">
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#C5C1C1"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="hoặc"
+            android:textColor="#807E7E"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#C5C1C1"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llGoogleAuth"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/vientron"
+        android:backgroundTint="#F6F5F5"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/anhgg2"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="Sign In with Google"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+       android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Đã Có Tài Khoản ?"
+            android:textSize="19dp"></TextView>
+
+        <Button
+            android:id="@+id/btn_DangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#fff"
+            android:gravity="left"
+            android:outlineProvider="none"
+            android:text="Đăng Nhập"
+            android:textColor="#E11010"
+            android:textSize="19dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+</LinearLayout>

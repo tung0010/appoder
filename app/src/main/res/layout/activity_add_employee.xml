@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEmployeeActivity">
+
+    <EditText
+        android:id="@+id/etEmployeeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Nhân Viên" />
+
+    <EditText
+        android:id="@+id/etEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ Tên" />
+
+    <EditText
+        android:id="@+id/etEmployeePosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chức Vụ" />
+
+    <EditText
+        android:id="@+id/etEmployeeHSL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hệ Số Lương" />
+
+    <EditText
+        android:id="@+id/etEmployeeLCB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lương Cơ Bản" />
+
+    <EditText
+        android:id="@+id/etEmployeePhuCap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phụ Cấp" />
+
+    <Button
+        android:id="@+id/btnAddEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Nhân Viên" />
+</LinearLayout>

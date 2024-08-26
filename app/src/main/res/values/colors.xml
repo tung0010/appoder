@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#84FFFF</color>
+    <color name="colorPrimaryDark">#F4FF81</color>
+    <color name="colorAccent">#FF9E80</color>
+    <color name="D_HoaDon">#fdf1e5</color>
+    <color name="Chu1">#512b1e</color>
+    <color name="nen">#f1f1f1</color>
+    <color name="mau1">#af282f</color>
+    <color name="nhap">#eaeaea</color>
+    <color name="thu">#04AA6D</color>
+    <color name="selected_color">#AE282F</color>
+    <color name="unselected_color">#000000</color>
+
+</resources>

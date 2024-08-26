@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/icBack"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_back_foreground"
+        />
+    <EditText
+        android:id="@+id/etMaVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Voucher" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả Voucher"
+        android:id="@+id/etMota"/>
+
+    <EditText
+        android:id="@+id/etMinValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá trị sản phẩm tối thiểu" />
+
+    <EditText
+        android:id="@+id/etGiaTriGiam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá trị giảm (VND)" />
+
+    <EditText
+        android:id="@+id/etNgayBatDau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày bắt đầu"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/etNgayKetThuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày kết thúc"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/btnThemVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Voucher" />
+
+</LinearLayout>
